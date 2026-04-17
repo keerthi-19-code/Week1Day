@@ -1,0 +1,34 @@
+function studentscore(x) {
+  let result;
+  switch(true)
+{case (x>=90):
+    result = "A";
+console.log(result);
+break;
+case (x>=80):
+    result = "B";
+console.log(result);
+break;
+case (x>=70):
+    result= "C";
+console.log(result);
+return result;
+break;
+case (x>=60):
+    result ="D";
+console.log(result);
+break;
+default:
+    result = "F";
+console.log(result);
+
+}
+}
+// studentscore(95);
+// studentscore(50);
+// studentscore(89);
+// studentscore(64);
+studentscore(71);
+
+
+

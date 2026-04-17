@@ -1,0 +1,43 @@
+function launchbrowser(browserName)
+{
+    if(browserName === "chrome")
+    {
+        console.log("launching chrome browser");
+    }
+    else
+    {        console.log("please pass the correct browser name");
+ 
+}
+}
+     launchbrowser("chrome");    
+    //  launchbrowser("gjhvjv");   
+    
+    
+    function runTests(testType)
+    {
+        switch(testType)
+    {
+        case "smoke":
+        console.log(" smoke testing");
+        break;
+        
+        case "regression":
+        console.log(" regression testing");
+        break;          
+
+        case "sanity":
+        console.log(" sanity testing");
+        break;
+
+        default:
+        console.log("smoke testing");
+    }
+
+    }
+    runTests("smoke");
+    // runTests("regression");
+    // runTests("sanity");
+    // runTests("Functional");
+
+    
+
